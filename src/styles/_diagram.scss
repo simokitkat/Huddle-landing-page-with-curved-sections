@@ -1,0 +1,43 @@
+@use './variables-mixins' as *;
+
+.diagram{
+    height: 222px;
+    margin-bottom: 133px;
+
+    .container{
+        width: 61.11%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>div{
+
+            img{
+                display: block;
+            }
+
+            h2{
+                font-size: 96px;
+                font-family: $open-sans;
+                font-weight: 700;
+                line-height: 144px;
+                color: $Very-Dark-Cyan;
+            }
+
+            p{
+                font-size: 24px;
+                font-family: $open-sans;
+                line-height: 36px;
+                 color: #808E9A;
+            }
+        }
+
+        .messages{
+            p{
+                 padding-left: 43.5px;
+            }
+        }
+
+    }
+}
