@@ -1,0 +1,47 @@
+@use './variables-mixins' as *;
+
+.flowing-conversations{
+    margin-top: 104px;
+    margin-bottom: 20px;
+    height: 560px;
+    .container{
+        width: 83.33%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .image{
+            width: 46.67%;
+            height: 100%;
+            padding: 91px 14.5px;
+
+            img{
+                display: block;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .text{
+            width: 43.33%;
+            color: $Very-Dark-Cyan;
+
+            h2{
+            font-size: 40px;
+            font-family: $poppins;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 26px;
+            }
+            
+            p{
+            font-size: 16px;
+            font-family: $open-sans;
+            font-weight: 400;
+            line-height: 24px;
+            }
+        }
+    }
+}
