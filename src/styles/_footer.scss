@@ -1,0 +1,71 @@
+@use './variables-mixins' as *;
+
+footer{
+    height: 720px;
+    background-image: url('../assets/images/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 280px;
+    color: white;
+
+    .container{
+        width: 83.33%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.contacts{
+    width: 340px;
+
+    &>p{
+        font-family: $open-sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 27px 0 24px;
+    }
+
+    .phone, 
+    .email{
+        display: flex;
+        align-items: center;
+        height: 24px;
+        gap: 16px;
+
+        img{
+            display: block;
+            width: 24px;
+        }
+
+        span{
+            display: block;
+            font-family: $open-sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    .email{
+        margin: 16px 0 80px;
+    }
+
+    .socials{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+
+        .social-svg{
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+
+            path{
+                fill: white;
+            }
+        }
+    }
+}

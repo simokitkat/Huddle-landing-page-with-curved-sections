@@ -1,0 +1,35 @@
+@use './variables-mixins' as *;
+
+.cta{
+    height: 495px;
+    padding-top: 135px;
+
+    .container{
+        width: 680px;
+        margin: auto;
+        text-align: center;
+
+        h2{
+            white-space: nowrap;
+            font-size: 40px;
+            font-family: $poppins;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 42px;
+        }
+
+        button{
+            width: 400px;
+            margin: auto;
+            height: 80px;
+            background-color: $Pink;
+            color: white;
+            font-size: 20px;
+            font-family: $open-sans;
+            font-weight: 700;
+            line-height: 30px;
+            border: none;
+            border-radius: 40px;
+        }
+    }
+}

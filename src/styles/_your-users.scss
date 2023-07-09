@@ -1,0 +1,49 @@
+@use './variables-mixins' as *;
+
+.your-users{
+    height: 803px;
+    background-image: url('../assets/images/yourusers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 121.4px 0;
+
+    .container{
+        width: 83.33%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .text{
+            width: 43.33%;
+            color: $Very-Dark-Cyan;
+
+            h2{
+                font-size: 40px;
+                font-family: $poppins;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 26px;
+            }
+
+            p{
+                font-size: 16px;
+                font-family: $open-sans;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+        .image{
+            width: 46.67%;
+            padding: 78px 13px;
+
+            img{
+                display: block;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+}
