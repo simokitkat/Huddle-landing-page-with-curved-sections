@@ -69,3 +69,63 @@ footer{
         }
     }
 }
+
+.newsletter{
+    width: 520px;
+    font-family: $open-sans;
+    align-self: self-start;
+
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    p{
+        width: 344px;
+        margin: 16px 0 40px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 48px;
+
+        input{
+            border: none;
+            width: 320px;
+            height: 100%;
+            border-radius: 6px;
+            outline: none;
+            padding: 5px 20px;
+            font-size: 14px;
+        }
+
+        button{
+            width: 160px;
+            height: 100%;
+            border-radius: 5px;
+            color: white;
+            background-color: $Pink;
+            border: none;
+            font-family: $open-sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            cursor: pointer;
+        }
+    }
+
+    .error{
+        display: none;
+        color: $Light-Red;
+
+        &.show{
+            display: block;
+        }
+    }
+}
