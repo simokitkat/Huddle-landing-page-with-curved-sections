@@ -25,6 +25,7 @@ export default function Form() {
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          className={!isError ? "" : "error-input"}
         />
         <button>Subscribe</button>
       </form>

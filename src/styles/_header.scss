@@ -23,6 +23,13 @@ header{
             color: $open-sans;
             font-size: 16px;
             color: $Pink;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                border-color: $Light-Pink;
+                color: $Pink;
+            }
         }
     }
 }
