@@ -5,7 +5,7 @@
     margin-bottom: 120px;
 
     .container{
-        width: 70.625%;
+        width: 1016px;
         margin: auto;
         height: 100%;
         text-align: center;
@@ -51,8 +51,60 @@
         img{
             display: block;
             width: 100%;
-            max-height: 720px;
-            object-fit: cover;
+            // margin: auto;
+            // max-height: 720px;
+            // object-fit: cover;
+        }
+    }
+}
+
+/**********************
+** Tablet and Mobile **
+**********************/
+
+@media (max-width:1200px){
+    .hero{
+        height: 581px;
+        margin-bottom: 145.6px;
+
+        .container{
+            width: 78.93%;
+
+            h1{
+                font-size: 24px;
+                line-height: 36px; 
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px; 
+                margin: 24px auto 48px;
+            }
+
+            button{
+                width: 200px;
+                height: 40px;
+                font-size: 12px;
+                line-height: 18px;
+                margin-bottom: 115px;
+            }
+
+            img{
+                width: 396px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1000px){
+    .hero{
+        .container{
+            img{
+                width: 296px;
+            }
         }
     }
 }
