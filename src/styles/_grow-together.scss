@@ -46,3 +46,50 @@
         }
     }
 }
+
+/*********************
+** Tablet and phone **
+*********************/
+
+@media (max-width:1200px){
+
+    .grow-together{
+        height: 763px;
+        padding-top: 180px;
+        background-position: center;
+
+        .container{
+            width: 85.33%;
+            min-width: 320px;
+            flex-direction: column-reverse;
+            gap: 40px;
+
+            .text{
+                width: 100%;
+                text-align: center;
+
+                h2{
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+
+            .image{
+                width: 87.5%;
+                height: 280px;
+                padding: 34.22px 10.5px;
+
+                img{
+                    object-fit: contain;
+                    height: 211.556px;
+                }
+            }
+        }
+    }
+}

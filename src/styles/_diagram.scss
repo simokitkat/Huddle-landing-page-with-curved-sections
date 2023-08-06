@@ -29,7 +29,7 @@
                 font-size: 24px;
                 font-family: $open-sans;
                 line-height: 36px;
-                 color: #808E9A;
+                color: #808E9A;
             }
         }
 
@@ -46,4 +46,41 @@
 ** Tablet and phone **
 *********************/
 
-// the point will be 1200px
+@media (max-width:1200px) {
+    .diagram{
+        height: 356px;
+        margin-bottom: 1px;
+
+        .container{
+            width: 42.67%;
+            height: 100%;
+            min-width: 160px;
+            flex-direction: column;
+
+            &>div{
+
+                img{
+                    width: 35px;
+                }
+
+                h2{
+                    font-size: 60.952px;
+                    line-height: 91.429px;
+                }
+
+                p{
+                    text-align: center;
+                    font-size: 15.238px;
+                    font-weight: 400;
+                    line-height: 22.857px; 
+                }
+            }
+
+            .messages{
+                p{
+                     padding-left: 0;
+                }
+            }
+        }
+    }
+}
