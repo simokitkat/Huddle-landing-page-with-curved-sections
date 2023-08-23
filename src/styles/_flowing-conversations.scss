@@ -45,3 +45,48 @@
         }
     }
 }
+
+/*********************
+** Tablet and phone **
+*********************/
+
+@media (width < 1200px){
+    .flowing-conversations{
+        margin-top: 67px;
+        margin-bottom: 120px;
+        height: 429px;
+
+        .container{
+            width: 85.33%;
+            flex-direction: column;
+
+            .image{
+                width: 87.5%;
+                height: 280px;
+                padding: 45.5px 7px;
+
+                img{
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .text{
+                width: 100%;
+                text-align: center;
+
+                h2{
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-size: 14px;
+                    line-height: 21px; 
+                }
+            }
+        }
+
+    }
+}
