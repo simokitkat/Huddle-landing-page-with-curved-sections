@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/simokitkat/Huddle-landing-page-with-curved-sections)
-- Live Site URL: [Frontend Mentor | Age calculator app](https://huddlelandingpagewithcurvedsections.netlify.app)
+- Live Site URL: [Frontend Mentor | Huddle landing page with curved sections](https://huddlelandingpagewithcurvedsections.netlify.app)
 
 ## My process
 
