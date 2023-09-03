@@ -47,3 +47,49 @@
         }
     }
 }
+
+/*********************
+** Tablet and phone **
+*********************/
+
+@media (width < 1200px){
+    .your-users{
+
+        padding: 119px 0 0;
+        
+        .container{
+            width: 85.33%;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            gap: 40px;
+
+            .image{
+                width: 280px;
+                height: 280px;
+                padding: 39px 6.5px;
+            }
+
+            .text{
+                width: 100%;
+                text-align: center;
+
+                h2{
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+@media (width < 400px){
+    .your-users{
+        background-image: url('../assets/images/yourusers-mob.png');
+    }
+}

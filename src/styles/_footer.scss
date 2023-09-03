@@ -152,3 +152,91 @@ footer{
         }
     }
 }
+
+/*********************
+** Tablet and phone **
+*********************/
+
+@media (width < 1200px){
+    footer{
+        height: 840px;
+        // background-image: url('../assets/images/footer-mob.png');
+        padding-top: 109px;
+        padding-bottom: 46px;
+
+        .container{
+            width: 85.33%;
+            height: 100%;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            gap: 104px;
+            align-items: flex-start;
+        }
+    }
+
+    .contacts{
+        width: 100%;
+
+        &>p{
+            margin: 16px 0 40px;
+        }
+
+        .phone,
+        .email{
+            span{
+                font-size: 14px;
+            }
+        }
+
+        .email{
+            margin: 16px 0 48px;
+        }
+
+        .socials{
+            gap: 17.33px;
+
+            .social-svg{
+                width: 23px;
+                height: 23px;
+            }
+        }
+    }
+
+    .newsletter{
+        width: 100%;
+
+        h2{
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        p{
+            width: 100%;
+            margin: 16px 0 32px;
+        }
+
+        form{
+            height: 112px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 16px;
+
+            input{
+                width: 100%;
+                max-width: 600px;
+                height: 48px;
+            }
+
+            button{
+                height: 48px;
+            }
+        }
+    }
+
+}
+
+@media (width < 500px) {
+    footer{
+        background-image: url('../assets/images/footer-mob.png');
+    }
+}
